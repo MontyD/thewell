@@ -8,11 +8,13 @@
     "tar-dist": "rm -f dist.tar.gz && tar -zcvf dist.tar.gz dist"
   },
   "devDependencies": {
-    "@types/googlemaps": "^3.39.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-ogimage": "^1.1.0",
-    "pug": "^2.0.4",
-    "sass": "^1.23.7",
-    "typescript": "^3.7.4"
+    "@parcel/transformer-pug": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0",
+    "@types/google.maps": "^3.45.6",
+    "parcel": "^2.0.0",
+    "parcel-plugin-ogimage": "^1.2.0",
+    "pug": "^3.0.2",
+    "sass": "^1.43.2",
+    "typescript": "^3.9.10"
   }
 }
