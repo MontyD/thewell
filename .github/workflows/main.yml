@@ -20,7 +20,7 @@ jobs:
     - uses: actions/setup-node@v1
       if: steps.version-updated.outputs.has-updated
       with:
-        node-version: '12.x'
+        node-version: '22.x'
     - run: npm install
       if: steps.version-updated.outputs.has-updated
     - run: npm run build && npm run tar-dist
